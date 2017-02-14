@@ -21,12 +21,12 @@ class PlanetTableViewController: UITableViewController {
 
   func generatePlanetInfo() {
 
-    let earth = Planet(name: "Earth", numberOfMoons: 1, fullOrbit: 365.26, facts: ["Earth is the only planet not named after a God",
-                                                                                   "Earth has a powerful magnetic field",
-                                                                                   "Earth was once believed to be the center of the universe"])
-    let mars = Planet(name: "Mars", numberOfMoons: 2, fullOrbit: 687.0, facts: ["Mars and Earth have approximately the same landmass",
-                                                                                "Mars is home to the tallest mountain in the solar system",
-                                                                                "Pieces of Mars have fallen to Earth"])
+    let earth = Planet(name: "Earth", numberOfMoons: 1, fullOrbit: 365.26, facts: ["Earth is the only planet not named after a god.",
+                                                                                   "Earth has a powerful magnetic field.",
+                                                                                   "Earth was once believed to be the center of the universe."])
+    let mars = Planet(name: "Mars", numberOfMoons: 2, fullOrbit: 687.0, facts: ["Mars and Earth have approximately the same landmass.",
+                                                                                "Mars is home to the tallest mountain in the solar system.",
+                                                                                "Pieces of Mars have fallen to Earth."])
 
     planets.append(earth)
     planets.append(mars)
